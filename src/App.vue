@@ -1,19 +1,17 @@
 <template>
   <div id="app">
     <TopBar />
-    <MainBody />
+    <router-view/>
   </div>
 </template>
 
 <script>
 import TopBar from "./components/TopBar";
-import MainBody from "./components/MainBody";
 
 export default {
   name: "App",
   components: {
-    TopBar,
-    MainBody
+    TopBar
   }
 };
 </script>
