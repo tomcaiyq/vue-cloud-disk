@@ -1,8 +1,5 @@
 <template>
-  <div class="main-body">
-    <el-col>
-      
-    </el-col>
+  <div class="main">
     <div class="left-menu">
       <el-menu default-active="1">
         <el-menu-item index="1" @click="handleAll">
@@ -43,27 +40,14 @@
         </el-menu-item>
       </el-menu>
     </div>
-    <div class="main">全部文件</div>
+    <div class="main">所有文件</div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "MainBody",
   data() {
-    return {
-    };
-  },
-  methods: {
-    handleAll(){
-      this.$router.push({
-        path: '/allFiles',
-        query: {}
-      })
-      console.log('所有文件');
-    }
-  },
-  mounted(){
+    return {};
   }
 };
 </script>
@@ -83,7 +67,4 @@ export default {
   background: #f7f7f7;
 }
 
-.main{
-  padding: 10px;
-}
 </style>
