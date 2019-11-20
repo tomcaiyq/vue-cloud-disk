@@ -1,5 +1,8 @@
 <template>
   <div class="main-body">
+    <el-col>
+      
+    </el-col>
     <div class="left-menu">
       <el-menu default-active="1">
         <el-menu-item index="1">
