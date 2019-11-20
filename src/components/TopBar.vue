@@ -19,6 +19,9 @@
         <el-menu-item :index="3">分享</el-menu-item>
         <el-menu-item :index="4">找资源</el-menu-item>
         <el-menu-item :index="5">更多</el-menu-item>
+        <el-menu-item style="float:right;">
+          <div class="top-nav-right">用户名</div>
+        </el-menu-item>
       </el-menu>
     </div>
   </div>
@@ -41,6 +44,7 @@ export default {
 <style scoped>
 .top-nav {
   width: 100%;
+  user-select: none;
 }
 </style>
 
